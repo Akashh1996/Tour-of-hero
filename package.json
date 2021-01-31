@@ -4,9 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest --watch",
-		"test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
-		"test:coverage": "jest --collect-coverage --watchAll"
+		"test": "jest --collect-coverage --watchAll",
+		"test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
 	},
 	"keywords": [],
 	"author": "",
